@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="img2/key-logo-m.png" />
+        <title>Darron PERERA Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="style2.css">
+        <script>
+            function AutomaScroll(cible) {
+                document.querySelector(cible).scrollIntoView({ behavior: 'smooth' });
+            }
+
+            /* J'ai rajouté une fonction JS pour faire apparaitre des images au survol des liens du menu */
+
+            function appear() {
+                document.getElementById('square').style.opacity = "1";
+            }
+
+            function disappear() {
+                document.getElementById('square').style.opacity = "0";
+            }
+
+            function appearB() {
+                document.getElementById('squareB').style.opacity = "1";
+            }
+
+            function disappearB() {
+                document.getElementById('squareB').style.opacity = "0";
+            }
+
+            function appearC() {
+                document.getElementById('squareC').style.opacity = "1";
+            }
+
+            function disappearC() {
+                document.getElementById('squareC').style.opacity = "0";
+            }
+            function appearD() {
+                document.getElementById('squareD').style.opacity = "1";
+            }
+
+            function disappearD() {
+                document.getElementById('squareD').style.opacity = "0";
+            }
+
+            function appearE() {
+                document.getElementById('squareE').style.opacity = "1";
+            }
+
+            function disappearE() {
+                document.getElementById('squareE').style.opacity = "0";
+            }
+        </script>
+
+    </head> <!-- On referme la partie head -->
+    <body>  <!-- La partie body contient tous les éléments de contenu -->
+    <nav>
+        <div id="menu">
+            <div class="title">
+                <a href="../index.html"><img src="img2/key-logo-b.png" id="logo" width="40px"/></a><br><br>
+            </div>
+        <br>
+        <div class="title">
+        <a href="realisation.html"><strong>RÉALISATIONS</strong></a><br><br>
+    </div>
+        <br>
+            <div class="title">
+                <a href="javascript:AutomaScroll('#link1');"><strong>MORE WORK</strong></a><br><br>
+            </div>
+            ↳ <a href="javascript:AutomaScroll('#link2');" onmouseover="appear()" onmouseout="disappear()"><strong>ANIMATION</strong><br>Motion Design</a><br><br>
+            ↳ <a href="javascript:AutomaScroll('#link3');" onmouseover="appearB()" onmouseout="disappearB()"><strong>KEY ANIMATION</strong><br>Motion Design</a><br><br>
+            ↳ <a href="javascript:AutomaScroll('#link4');" onmouseover="appearC()" onmouseout="disappearC()"><strong>TREKK MMI</strong><br>Logotype</a><br><br>
+            ↳ <a href="javascript:AutomaScroll('#link5');" onmouseover="appearD()" onmouseout="disappearD()"><strong>BANNIÈRE</strong><br>Bannière web</a><br><br>
+            ↳ <a href="javascript:AutomaScroll('#link6');" onmouseover="appearE()" onmouseout="disappearE()"><strong>PARIS VINTAGE</strong><br>retouche</a><br><br>
+            <br><br>
+        <div class="title">
+             <a href="propos.html"><strong>À PROPOS</strong></a><br><br>
+          </div>
+        </div>
+    </nav>
+        <div id="conteneur">
+            <div id="link1" class="elements">
+
+                <div class="About">
+                    <h1>MORE <br>WORK</h1>
+                    <h2>MOTION DESIGN, LOGO,<br>
+                    BANNIÈRE, RETOUCHE PHOTO...
+                    </h2><br>
+                    <br><br><br><br>
+                    <a id="scrol" class="Scroll "href="javascript:AutomaScroll('#link2');">Scroller vers le bas pour voir mes autres réalisations<br>
+                    ↓ </a>
+                </div>
+            </div>
+
+            <div id="link2" class="elements">
+                <div class="projet">
+                    <h4>ANIMATION</h4>
+                    <h5>TYPE : Mise en page<br>
+                      LOGICIELS :After Effects<br>
+                      GENRE : animation<br></h5>
+                    <p>Création d'une animation, cette animation a été réalisé dans le cadre<br>
+                      d'un exercice dont le but était dans un premier temps d'apprendre<br>
+                      le logiciel et la faire rebondir puis dans un second temps d'animer<br>
+                       un cycliste à partir d'une illustration.</p>
+                        <br>
+                        <a class="viewpic" href="javascript:AutomaScroll('#link4');"><strong>[1]</strong><span><video id="idvideo" width="210%" height="210%" controls>
+                            <source src="img2/Balle.mp4" type=video/mp4 >
+                        <a class="viewpic" href="javascript:AutomaScroll('#link4');"><strong>[2]</strong><span><video id="idvideo" width="210%" height="210%" controls>
+                                <source src="img2/velo.mp4" type=video/mp4 >
+                </div>
+            </div>
+
+
+
+
+            <div id="link3" class="elements">
+                <div class="projet">
+                    <h4>KEY ANIMATION</h4>
+                    <h5>TYPE : Mise en page<br>
+                      LOGICIELS :After effect, Illustrator<br>
+                      GENRE : Animation<br></h5>
+                    <p>Création d'une animation à partir d'un logo, <br>
+                      Le but de cette animation était de donner de transformer<br>
+                      le logo en le créant grâce à des formes.</p>
+                        <br>
+                    <a class="viewpic" href="javascript:AutomaScroll('#link4');"><strong>[1]</strong><span><video id="idvideo" width="210%" height="210%" controls>
+                      <source src="img2/logo-animation.mp4" type=video/mp4 >
+                      <a class="viewpic" href="javascript:AutomaScroll('#link2');"><strong>[2]</strong><span><img src="img2/key-logo-b.png" width="50%" height="50%" /></span></a>
+                    </video></span></a>  
+                </div>
+            </div>
+
+            <div id="link4" class="elements">
+                <div class="projet">
+                    <h4>TREKK MMI</h4>
+                    <h5>TYPE : Mise en page<br>
+                      LOGICIELS : Illustrator<br>
+                      GENRE : Logo<br></h5>
+                    <p>Création d'un logo pour l'agence TREKK MMI, fait en collaboration avec Quentin LEMAÎTRE.<br>
+                    Le forme en double "K" représente les deux "K" composant le nom de l'agence "TREKK"<br>
+                    mais il représente également les branches d'un arbre rappelant les valeurs écologiques<br>
+                    de l'agence.
+
+                    </p>
+                        <br>
+                    <a class="viewpic" href="javascript:AutomaScroll('#link2');"><strong>[1]</strong><span><img src="img2/trekk-logo.jpg" width="140%" height="140%" /></span></a>
+                    <a class="viewpic" href="javascript:AutomaScroll('#link2');"><strong>[2]</strong><span><img src="img2/trekkmockup.png" width="200%" height="200%" /></span></a>
+                </div>
+            </div>
+            <div id="link5" class="elements">
+                <div class="projet">
+                    <h4>BANNIÈRE</h4>
+                    <h5>TYPE : Mise en page<br>
+                      LOGICIELS :Photoshop<br>
+                      GENRE : Bannière web<br></h5>
+                    <p>La premiére image est une création d'une bannière twitter avec un thème spécifique<br> 
+                    sur le manga one punch man, plus particulièrement le personnage Garou.<br>
+                    L'ajout de la transparence sur les lettres R et D uniquement sur le nom permet<br>
+                    de voir le personnage avec plus clarté mais permet également la lecture du nom<br> 
+                    "Mordred" lisible .<br>
+                    La seconde image est une création d'une bannière twitter avec un thème spécifique<br>
+                    sur le manga Berserk, plus particulièrement le personnage Guts. L'ajout d'éléments<br>
+                    provenant du manga permet une immersion plus profonde dans l'univers de ce dernier<br>
+                    mais nous remarquons également d'autres références à d'autres manga.
+                </p>
+                        <br>
+                    <a class="viewpic" href="javascript:AutomaScroll('#link2');"><strong>[1]</strong><span><img src="img2/banniere_garou.png" width="300%" height="300%" /></span></a>
+                    <a class="viewpic" href="javascript:AutomaScroll('#link2');"><strong>[2]</strong><span><img src="img2/banniere_guts.png" width="300%" height="300%" /></span></a>
+                    <a class="viewpic" href="javascript:AutomaScroll('#link2');"><strong>[3]</strong><span><img src="img2/Twitter garou Mockup.jpg" width="200%" height="200%" /></span></a>
+                    <a class="viewpic" href="javascript:AutomaScroll('#link2');"><strong>[4]</strong><span><img src="img2/Twitter guts Mockup.jpg" width="200%" height="200%" /></span></a>
+                </div>
+            </div>
+            <div id="link6" class="elements">
+                <div class="projet">
+                    <h4>PARIS VINTAGE</h4>
+                    <h5>TYPE : Retouche photo<br>
+                      LOGICIELS :Photoshop<br>
+                      GENRE : Couverture de magazine<br></h5>
+                    <p>Retouche photo d'un paysage urbain, l'objectif de la retouche était de donner<br>
+                    un aspect vintage en y incorporant du grain, en travaillant la vibrance<br>
+                    et la saturation des couleurs avec un ajout de grain de pellicule photographique. 
+                </p>
+                        <br>
+                    <a class="viewpic" href="javascript:AutomaScroll('#link2');"><strong>[1]</strong><span><img src="img2/photo retouche.png" width="140%" height="140%" /></span></a>
+                    <a class="viewpic" href="javascript:AutomaScroll('#link2');"><strong>[2]</strong><span><img src="img2/Mockupretouche.jpg" width="200%" height="200%" /></span></a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+            <div class="squareA" id="square"></div>
+            <div class="squareB" id="squareB"></div>
+            <div class="squareC" id="squareC"></div>
+            <div class="squareD" id="squareD"></div>
+            <div class="squareE" id="squareE"></div>
+            <footer>
+                <p>© 2022 Portfolio | Darron PERERA</p>
+                
+                    </footer>
+            </body> <!-- On referme la partie body -->
+        </html> <!-- On referme la page web -->
